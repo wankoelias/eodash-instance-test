@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         run: |
           npm install
-          npm run build -- --base /${{ github.event.repository.name }}/
+          npm run build
           cp .eodash/dist/index.html .eodash/dist/404.html
           touch .eodash/dist/.nojekyll
       - name: Deploy
