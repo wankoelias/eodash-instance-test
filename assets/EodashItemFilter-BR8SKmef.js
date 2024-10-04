@@ -1,4 +1,4 @@
-import{r as Ma,aD as Oa,Z as La,a6 as Ca,a9 as Ao,aa as Eo,d as ja,$ as Ra}from"./index-B0AtdWO1.js";var Pa=Object.defineProperty,ls=t=>{throw TypeError(t)},Ta=(t,e,r)=>e in t?Pa(t,e,{enumerable:!0,configurable:!0,writable:!0,value:r}):t[e]=r,Un=(t,e,r)=>Ta(t,typeof e!="symbol"?e+"":e,r),lo=(t,e,r)=>e.has(t)||ls("Cannot "+r),tt=(t,e,r)=>(lo(t,e,"read from private field"),r?r.call(t):e.get(t)),Ge=(t,e,r)=>e.has(t)?ls("Cannot add the same private member more than once"):e instanceof WeakSet?e.add(t):e.set(t,r),Ei=(t,e,r,n)=>(lo(t,e,"write to private field"),e.set(t,r),r),le=(t,e,r)=>(lo(t,e,"access private method"),r);/**
+import{r as Ma,aD as Oa,Z as La,$ as Ca,a6 as ja,a9 as Ao,aa as Eo,d as Ra}from"./index-DdiqRKAD.js";var Pa=Object.defineProperty,ls=t=>{throw TypeError(t)},Ta=(t,e,r)=>e in t?Pa(t,e,{enumerable:!0,configurable:!0,writable:!0,value:r}):t[e]=r,Un=(t,e,r)=>Ta(t,typeof e!="symbol"?e+"":e,r),lo=(t,e,r)=>e.has(t)||ls("Cannot "+r),tt=(t,e,r)=>(lo(t,e,"read from private field"),r?r.call(t):e.get(t)),Ge=(t,e,r)=>e.has(t)?ls("Cannot add the same private member more than once"):e instanceof WeakSet?e.add(t):e.set(t,r),Ei=(t,e,r,n)=>(lo(t,e,"write to private field"),e.set(t,r),r),le=(t,e,r)=>(lo(t,e,"access private method"),r);/**
  * @license
  * Copyright 2019 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
@@ -899,4 +899,4 @@ eox-itemfilter-results li.highlighted {
       top: 8px;
       right: 8px;
     }
-  `,i.value?.shadowRoot?.appendChild(l);const c=o.stac?.filter(h=>h.rel==="child");i.value.items=c,e.enableCompare&&s()}),(l,c)=>(Ra(),Ca("eox-itemfilter",ja({class:"fill-height"},n,{ref_key:"eoxItemFilter",ref:i,style:{overflow:"auto"},onSelect:r}),[Ao("h4",ld,Eo(t.filtersTitle),1),Ao("h4",cd,Eo(t.resultsTitle),1)],16))}};export{dd as default};
+  `,i.value?.shadowRoot?.appendChild(l);const c=o.stac?.filter(h=>h.rel==="child");i.value.items=c,e.enableCompare&&s()}),(l,c)=>(Ca(),ja("eox-itemfilter",Ra({class:"fill-height"},n,{ref_key:"eoxItemFilter",ref:i,style:{overflow:"auto"},onSelect:r}),[Ao("h4",ld,Eo(t.filtersTitle),1),Ao("h4",cd,Eo(t.resultsTitle),1)],16))}};export{dd as default};
