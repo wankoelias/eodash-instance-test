@@ -12,7 +12,7 @@
     "format": "prettier . --write"
   },
   "dependencies": {
-    "@eodash/eodash": "^5.0.0-alpha.2.24",
+    "@eodash/eodash": "5.0.0-alpha.2.25",
     "@eox/stacinfo": "^0.3.3"
   },
   "author": "",
