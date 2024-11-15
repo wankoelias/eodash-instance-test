@@ -4,7 +4,7 @@ const { currentUrl } = store.states;
 export default createEodash({
   id: "template-id",
   stacEndpoint:
-    "https://jorop.github.io/eodash-test/template_catalog/catalog.json",
+    "https://wankoelias.github.io/eodash-test/template_catalog/catalog.json",
   brand: {
     name: "Dashboard",
     font: {
